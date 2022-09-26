@@ -1,0 +1,13 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "c:\\tomcat\\lib\\cos.jar",
+        "c:\\tomcat\\lib\\ojdbc8.jar",
+        "c:\\tomcat\\lib\\ojdbc8.jar",
+        "c:\\tomcat\\lib\\websocket-api.jar",
+        "c:\\tomcat\\lib\\tomcat-websocket.jar",
+        "c:\\tomcat\\lib\\cos.jar",
+        "c:\\tomcat\\lib\\servlet-api.jar",
+        "c:\\tomcat\\lib\\json-simple-1.1.1.jar"
+    ]
+}

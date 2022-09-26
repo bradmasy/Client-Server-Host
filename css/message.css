@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(222, 233, 234);
+}
+
+#welcomeHeading {
+    text-align: center;
+}
+
+#messageDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 5px;
+}
+
+#messageDisplayDiv {
+    background-color: white;
+    width: 50%;
+    height: 300px;
+
+    /* Scrolls down when there's not enough room to display all messsages */
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+#messageInputDiv, #usernameInputDiv {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 3%;
+}
+
+#messageInput {
+    font-size: 18px;
+    width: 70%;
+}
+
+#sendMessageBtn {
+    font-size: 22px;
+    border: none;
+    background-color: rgb(164, 103, 222);
+    color: white;
+    border-radius: 5px;
+}
+
+#usernameDiv {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}

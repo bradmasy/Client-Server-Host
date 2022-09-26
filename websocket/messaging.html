@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Chat App</title>
+
+    <!-- CSS style -->
+    <link rel="stylesheet" href="../css/message.css" />
+
+    <!--JavaScript file -->
+    <script src="../javascript/messaging.js"></script>
+</head>
+
+<body>
+
+    <input id="mainPageBtn"  type="submit" onclick="window.location.href = '/Client-Server-A1/main';" value="Main" />
+    <input id="uploadPageBtn"  type="submit" onclick="window.location.href = '/Client-Server-A1/upload';" value="Upload" />
+    <input id="galleryPageBtn"  type="submit" onclick="window.location.href = '/Client-Server-A1/gallery';" value="Gallery" />
+
+    <br /><br />
+
+    <h3 id="welcomeHeading">Welcome <span id="username"></span>!</h3>
+
+    <br />
+    
+    <div id="messageDiv">
+        <p id="connectionMessage"></p>
+        <br />
+        
+        <div id="messageDisplayDiv"></div>
+
+        <div id="messageInputDiv">
+            <input type="text" id="messageInput" placeholder="Type your message" maxlength="200" oninput="checkValidMessageInput()" />
+            <input type="submit" id="sendMessageBtn" value="Send" disabled="disabled" />
+        </div>
+    </div>
+    
+</body>
+
+</html>
